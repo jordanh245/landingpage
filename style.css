@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	
 }
 
 /* backgrounds */
@@ -8,11 +9,12 @@ body {
 	background-color: #1F2937;
 	display: flex;
 	flex-direction: column;
-	height: 700px;
+	height: 600px;
 }
 
 .backgroundFooter {
 	background-color: #1F2937;
+	height: 70px;
 }
 
 .backgroundQuote{
@@ -60,7 +62,7 @@ a{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 5%;	
+	padding-top: 2%;	
 }
 
 .headerLay{
@@ -131,19 +133,42 @@ a{
 	color: #1F2937;
 	font-style: italic;
 	opacity:80% ;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.quoteInfo {
+	width: 500px;
 }
 
 /* Signup area */
-.signUp {
-	background-color: #3882f6;
-	border-radius: 10px;
-	width: 500px;
-	padding: 10px;
-	padding-left: 50px;
-	
+.backgroundSignup {
+	height: 300px;
 	display: flex;
-	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
+	
 }
+
+ .signUp {
+	  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 4em;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.backgroundSignup{
+	 display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 7em;
+} 
 
 .button2 {
 	background-color: #3882f6;
@@ -152,4 +177,13 @@ a{
 	width: 90px;
 	height: 25px;
 	border: solid 1px white;
+}
+
+/* Footer */
+.footer{
+	color: white;
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	font-size: 13px;
 }
