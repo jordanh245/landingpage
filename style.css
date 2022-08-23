@@ -1,0 +1,130 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* backgrounds */
+.backgroundTop {
+	background-color: #1F2937;
+	display: flex;
+	flex-direction: column;
+}
+
+.backgroundFooter {
+	background-color: #1F2937;
+}
+
+.backgroundQuote{
+	background-color:#e5e7eb ;
+}
+
+/* nav bar */
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px;
+	
+}
+ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	gap: 20px;
+	list-style: none;
+  }
+
+
+
+.link1, .link2, .link3, .heroP {
+	font-size: 18px;
+	color: #e5e7eb;
+	opacity: 50%;
+}
+
+a{
+	text-decoration: none;
+	color: #e5e7eb;
+ }
+
+.heroLogo {
+	font-size: 24px;
+	color: #f9faf8;
+	
+}
+
+/* Hero area */
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+.headerLay{
+	flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 100px;
+}
+.heroH1 {
+	font-size: 48px;
+	font-weight: 900px;
+	color: #f9faf8;
+}
+
+
+ .headerButton{
+	background-color: #3882f6;
+	color: white;
+	border-radius: 5px;
+	width: 90px;
+	height: 25px;
+	border: none;
+ }
+
+ .flowerHead {
+	width: 350px;
+	height: auto;
+	
+ }
+
+ /* Content area */
+
+.image1, .image2, .image3, .image4 {
+	width: 110px;
+	height: 130px;
+	border-radius: 15px;
+	border: solid 3px #3882f6;
+}
+
+.quote {
+	font-size: 36px;
+	font-weight: 100;
+	color: #1F2937;
+	font-style: italic;
+	opacity:80% ;
+}
+
+.signUp {
+	background-color: #3882f6;
+	border-radius: 10px;
+	width: 500px;
+	padding: 10px;
+	padding-left: 50px;
+	
+	display: flex;
+	align-items: flex-start;
+}
+
+.button2 {
+	background-color: #3882f6;
+	color: white;
+	border-radius: 5px;
+	width: 90px;
+	height: 25px;
+	border: solid 1px white;
+}
